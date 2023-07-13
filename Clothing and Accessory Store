@@ -1,0 +1,18 @@
+CREATE TABLE Clothing (Typeid TEXT, price TEXT, needtobuy TEXT, quantity INTEGER, rating REAL);
+INSERT INTO Clothing VALUES ("Shirt", 20, 3,5,7);
+INSERT INTO Clothing VALUES ("Pants", 30, 5, 6,7);
+INSERT INTO Clothing Values ("Skirts", 25, 7,7, 8);
+INSERT INTO Clothing Values ("Jeans", 27, 2, 7,5);
+INSERT INTO CLothing Values ("Shoes", 34, 5, 7,6);
+INSERT INTO CLothing Values ("Tanktops", 17, 3,7, 6);
+INSERT INTO CLothing Values ("Rings", 7, 5,7, 4);
+INSERT INTO Clothing Values ("Bracelets", 9,7,4,7);
+INSERT INTO Clothing Values ("Necklaces", 12, 4, 7,7);
+INSERT INTO CLothing Values ("Earings", 50, 4, 6,7);
+INSERT INTO CLothing Values ("Socks", 3, 5, 7,7);
+INSERT INTO CLothing Values ("Bras", 12, 5, 8,7);
+INSERT INTO CLothing Values ("Underwears", 4, 6,7,7);
+INSERT INTO CLothing Values ("Jackets", 28, 9, 5,7);
+INSERT INTO Clothing Values ("Sweaters", 22, 7, 8,7);
+SELECT * FROM Clothing;
+SELECT * FROM CLothing WHERE price > 20
